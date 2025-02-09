@@ -1,0 +1,15 @@
+.box{
+    width: 150px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: deepskyblue;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 300px;
+    justify-content: space-around;
+}
