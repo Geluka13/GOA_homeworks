@@ -1,0 +1,30 @@
+.box1{
+    width: 30px;
+    height: 30px;
+    background-color: lightgreen;
+}
+.box2{
+    width: 50px;
+    height: 30px;
+    background-color: lightgreen;
+}
+.box3{
+    width: 30px;
+    height: 30px;
+    background-color: lightgreen;
+}
+.box4{
+    width: 30px;
+    height: 30px;
+    background-color: lightgreen;
+}
+.box5{
+    width: 80px;
+    height: 30px;
+    background-color: lightgreen;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
