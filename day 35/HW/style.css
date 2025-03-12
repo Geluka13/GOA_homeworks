@@ -1,0 +1,50 @@
+.index1-body{
+    background-image: url(./assets/images/Goa.png);
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px;
+}
+.index2-body{
+    background-image: url(./assets/images/Lion.png);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+.index3-body{
+    background-image: url(./assets/images/kodala.png);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+.index4-body{
+    background-image: url(./assets/images/cls\ 63.png);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+.index5-body{
+    background-image: url(./assets/images/qartulisimgera.png);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}

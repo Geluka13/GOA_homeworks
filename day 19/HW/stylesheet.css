@@ -1,0 +1,42 @@
+#svanetihead{
+    text-align: center;
+    font-family: cursive;
+    background-color: aqua;
+}
+#svanetimai{
+    text-align: center;
+    font-family: cursive;
+    background-color: aqua;
+}
+#svanetifoot{
+    text-align: center;
+    background-color: aqua;
+    font-family: cursive;
+}
+#svanetibody{
+    background-color: aqua;
+}
+img{
+    border: 30px black solid;
+    border-style: double;
+}
+
+#wonderbody{
+    font-family: cursive;
+    text-align: center;
+}
+#XinkaliBody{
+    font-family: cursive;
+    text-align: center;
+    background-color: bisque;
+}
+#GOAbody{
+    background-color: green;
+    font-family: cursive;
+    text-align: center;
+}
+#ProgrammingBody{
+    font-family: cursive;
+    text-align: center;
+    background-color: gray;
+}

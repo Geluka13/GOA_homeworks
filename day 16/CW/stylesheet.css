@@ -1,0 +1,24 @@
+#body{
+   background-color: chocolate;
+    text-align: center;
+    font-family: cursive;
+}
+p{
+    color: cornsilk;
+    border: 30px black;
+    border-style: dashed;
+}
+
+h1{
+    color: rgb(44, 64, 75);
+    background-color: rgb(93, 120, 163);
+    font-family: cursive;
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    border: 10px solid rgb(50, 64, 87);
+}
+audio{
+    border: 30px black;
+    border-style: double;
+}

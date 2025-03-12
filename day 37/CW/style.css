@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.card{
+    height: 600px;
+    background-color: brown;
+    width: 600px;
+    border-radius: 3px;
+    margin: 10px auto;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0,0.15) 1.95px 1.95px 2.6px;
+}
+.card p{
+    text-align: center;
+    color: black;
+    font-weight: 500;
+}
+body{
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    background-image: linear-gradient(45deg, red, black);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.linear-body{
+    background-image: linear-gradient(
+    45deg,
+    hsl(240deg 100% 20%) 0%,
+    hsl(329deg 100% 36%) 8%,
+    hsl(17deg 100% 59%) 17%,
+    hsl(55deg 100% 50%) 25%,
+    hsl(42deg 100% 50%) 33%,
+    hsl(27deg 100% 50%) 42%,
+    hsl(0deg 100% 50%) 50%,
+    hsl(33deg 100% 46%) 58%,
+    hsl(65deg 100% 39%) 67%,
+    hsl(124deg 100% 50%) 75%,
+    hsl(44deg 100% 49%) 83%,
+    hsl(355deg 100% 61%) 92%,
+    hsl(313deg 100% 50%) 100%
+  );
+}

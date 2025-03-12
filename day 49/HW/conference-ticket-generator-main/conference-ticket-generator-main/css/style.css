@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Inconsolata";
+    src: url(../assets/fonts/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+body{
+    background-image: url(../assets/images/background-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Inconsolata";
+    color: white;
+    height: 100vh;
+}
+.logo1{
+    margin-left: 45%;
+}
+input{
+    display: block;
+    margin-left: 40%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.in1{
+    padding: 20px 20px 20px 20px;
+    border: 1px dashed white;
+    border-radius: 5px;
+}
+#text{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 3px 10px 3px 10px;
+    background-color: transparent;
+    color: white;
+}
+label{
+    display: block;
+    margin-left: 40%;
+}
+header{
+    text-align: center;
+    margin-top: 0px;
+}
+.svg1{
+    display: flex;
+    margin-left: 1100px;
+}
+button{
+    display: block;
+    margin-left: 40%;
+    padding: 3px 10px 3px 10px;
+    border: transparent 2px solid;
+    background-color: rgb(224, 105, 91);
+    border-radius: 5px;
+}
+.svg2{
+    margin-right: 1300px;
+}

@@ -1,0 +1,14 @@
+img{
+    border: 10px solid black;
+    border-style: double;
+}
+main p, footer p{
+    color: black;
+    font-family: cursive;
+    text-align: center;
+}
+header, p{
+    color: burlywood;
+    font-family: cursive;
+    text-align: center;
+}

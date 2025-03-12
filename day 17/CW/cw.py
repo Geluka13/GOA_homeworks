@@ -1,0 +1,1 @@
+print("proeqtebi warvadginet da saklaso argvqonia")

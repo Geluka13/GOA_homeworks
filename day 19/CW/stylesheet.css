@@ -1,0 +1,20 @@
+#header{
+    background-color: brown;
+    text-align: center;
+    font-family: cursive;
+}
+img{
+    border: solid 30px black;
+    border-style: double;
+
+}
+#main{
+    font-family: cursive;
+    text-align: center;
+    background-color: brown;
+
+}
+#footer{
+    background-color: brown;
+    font-family: cursive;
+    text-align: center;}

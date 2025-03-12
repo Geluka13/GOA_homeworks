@@ -1,0 +1,63 @@
+.btn{
+    width: 100px;
+    height: 30px;
+    color: wheat;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    border: 1px wheat solid;
+    cursor: pointer;
+}
+main, footer, header{
+    color: wheat;
+}
+img{
+    border: 30px solid wheat;
+    border-style: double;
+}
+body{
+    background-color: burlywood;
+    text-align: center;
+    font-family: cursive;
+}
+.body-4{
+    background-color: black;
+    font-family: cursive;
+    text-align: center;
+}
+.btn-4{
+    width: 100px;
+    height: 30px;
+    color: black;
+    background-color: green;
+    border-radius: 10px;
+    border: 1px solid green;
+    cursor: pointer;
+}
+.header-4 , .main-4 , .footer-4{
+    color: green;
+}
+.img-4{
+    border: 30px solid green;
+    border-style: double;
+}
+.body-5{
+    font-family: cursive;
+    text-align: center;
+    background-color: white;
+}
+.header-5 , .main-5 , .footer-5{
+    color: blue;
+}
+.btn-5{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+.img-5{
+    border: 30px solid blue;
+    border-style: double;
+}

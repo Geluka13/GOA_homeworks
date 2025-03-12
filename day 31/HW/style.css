@@ -1,0 +1,38 @@
+.index-body{
+    background-color: beige;
+    color: burlywood;
+    font-family: cursive;
+    margin: 50px 60px 70px;
+    padding: 50px 60px 70px;
+}
+.index2-body{
+    background-color: aquamarine;
+    color: skyblue;
+    font-family: cursive;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+.index3-body{
+    background-color: rgb(184, 81, 81);
+    color: chocolate;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 30px 20px 30px;
+    padding: 20px 30px 20px 30px;
+    box-sizing: border-box;
+}
+.index4-body{
+    background-color: cadetblue;
+    color: rgb(0, 162, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 5px 15px 5px 15px;
+    padding: 5px 15px 5px 15px;
+    box-sizing: border-box;
+}
+.index5-body{
+    background-color: cornsilk;
+    color: cornflowerblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    box-sizing: border-box;
+}

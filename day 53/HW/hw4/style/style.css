@@ -1,0 +1,101 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+}
+
+header {
+    padding: 20px;
+    text-align: left;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.content {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    align-items: center;
+}
+
+.mockup {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desktop, .mobile {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    position: relative;
+}
+
+.desktop {
+    width: 60%;
+    height: 300px;
+}
+
+.mobile {
+    width: 30%;
+    height: 200px;
+    top: 50px;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #f093fb, #f5576c);
+    margin: 10px;
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: white;
+    color: #764ba2;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.social img {
+    width: 30px;
+    margin: 0 10px;
+}

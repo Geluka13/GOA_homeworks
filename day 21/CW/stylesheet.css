@@ -1,0 +1,14 @@
+#შობაახალიწელიbody{
+    text-align: center;
+    font-family: cursive;
+    background-color: burlywood;
+}
+img{
+    border: 30px solid black;
+    border-style: double;
+}
+h1{
+    background-color: cadetblue;
+    color: burlywood;
+    border: 10px solid black;
+}

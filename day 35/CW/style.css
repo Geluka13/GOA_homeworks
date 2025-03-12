@@ -1,0 +1,16 @@
+body{
+    color: green;
+    text-align: center;
+    background-image: url(./assets/images/goa.png);
+    background-size: cover;
+}
+.image-container{
+    background-image: url(./assets/images/chad-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -25px 0;
+    border: 3px solid green;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}

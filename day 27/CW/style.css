@@ -1,0 +1,12 @@
+#indexparagraph{
+    background-color: #800080;
+    font-family: cursive;
+    text-align: center;
+}
+.p1{
+    font-size: 40px;
+    color: hsl(0,100%,100%, .5);
+}
+#indexbody{
+    background-color: rgb(22, 173, 59);
+}

@@ -1,0 +1,14 @@
+/*rest css */
+body{
+    margin: 50px 60px 70px;
+    padding: 50px 60px 70px;
+    background-color: bisque;
+    color: burlywood;
+    border: 10px solid skyblue;
+    box-sizing: border-box;
+}
+div{
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 40%;
+}

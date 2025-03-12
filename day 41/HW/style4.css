@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    color: #fff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .pricing-table {
+    display: flex;
+    gap: 20px;
+  }
+  .card {
+    background: linear-gradient(to bottom right, #ff9a9e, #fad0c4, #fbc2eb);
+    width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+  }
+  .card .icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #ff6a88, #ff8e53);
+    font-size: 30px;
+    color: #fff;
+  }
+  .card h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+  }
+  .card .price {
+    font-size: 2.5rem;
+    margin: 10px 0;
+  }
+  .card ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  .card ul li {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  .card ul li .check {
+    color: #28a745;
+    margin-right: 10px;
+  }
+  .card ul li .cross {
+    color: #dc3545;
+    margin-right: 10px;
+  }
+  .card button {
+    background: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  .card button:hover {
+    background: #ff8e53;
+    color: #fff;
+  }

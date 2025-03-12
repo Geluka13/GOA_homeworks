@@ -1,0 +1,9 @@
+.div-1{
+    color: brown;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border: black solid 10px;
+    border-style: double;
+    border-radius: 50% 50% 0 0 ;
+}

@@ -1,0 +1,15 @@
+tr:first-child{
+    background-color: rgb(174, 0, 255);
+}
+body{
+    background-image: linear-gradient(0deg, rgba(201,0,255,1) 9%, rgba(254,121,255,1));
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+tr:nth-child(2n){
+    background-color:  rgb(192, 194, 192);
+
+}
+table{
+    background-color: white;
+}

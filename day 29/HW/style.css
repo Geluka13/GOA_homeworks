@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+.index2-body{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+.index2-img{
+    border: 20px solid black;
+    border-style: double;
+    width: 500;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url(./fonts/Poppins/Poppins-Regular.ttf);
+}
+.index3-body{
+    font-family: "Poppins" , sans-serif;
+    text-align: center;
+    background-color: bisque;
+}
+.index3-img{
+    width: 700;
+    border: 10px solid black;
+    border-style: double;
+}
+@font-face{
+    font-family: "Nino-Mtavruli";
+    src: url(./fonts/bpg_nino_mtavruli_normal_[FONTS.GE]/bpg_nino_mtavruli_normal.ttf);
+}
+.index4-body{
+    font-family: "Nino-Mtavruli" , sans-serif;
+    text-align: center;
+    background-color: burlywood;
+    color: white;
+}
+.index4-img{
+    border: 20px solid white;
+    border-style: double;
+}
+.index5-body{
+    font-family: "Nino-Mtavruli" , sans-serif;
+    text-align: center;
+}
+li{
+    display: inline;
+    align-items: end;
+}
+.afxazeti-body{
+    font-family: "Nino-Mtavruli" , sans-serif;
+    text-align: center;
+}
+.ajara-body{
+    font-family: "Nino-Mtavruli" , sans-serif;
+    text-align: center;
+}
+.guria-body{
+    font-family: "Nino-Mtavruli" , sans-serif;
+    text-align: center;
+}
+.imereti-body{
+    font-family: "Nino-Mtavruli" , sans-serif;
+    text-align: center;
+}
+.kaxeti-body{
+    font-family: "Nino-Mtavruli" , sans-serif;
+    text-align: center;
+}
+.mesxeti-body{
+    font-family: "Nino-Mtavruli" , sans-serif;
+    text-align: center;
+}
+.rawa-body{
+    font-family: "Nino-Mtavruli" , sans-serif;
+    text-align: center;
+}
+.samegrelo-body{
+    font-family: "Nino-Mtavruli" , sans-serif;
+    text-align: center;
+}
+.svaneti-body{
+    font-family: "Nino-Mtavruli" , sans-serif;
+    text-align: center;
+}

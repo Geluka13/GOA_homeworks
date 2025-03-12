@@ -1,0 +1,40 @@
+.btn1{
+    border: 10px dashed rgb(74, 238, 142);
+    border-radius: 40px;
+
+    margin: 300px 300px 300px 300px;
+    padding: 20px 20px 20px 20px;
+}
+.div-1{
+    border: 5px solid red green blue yellow;
+    font-family: "jersey";
+}
+@font-face {
+    font-family: "jersey";
+    src: url(./fonts/Jersey_15/Jersey15-Regular.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.card{
+    height: 600px;
+    background-color: brown;
+    width: 600px;
+    border-radius: 3px;
+    margin: 10px auto;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0,0.15) 1.95px 1.95px 2.6px;
+}
+.card p{
+    text-align: center;
+    color: black;
+    font-weight: 500;
+}
+body{
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    background-image: linear-gradient(45deg, red, black);
+    background-repeat: no-repeat;
+    height: 100vh;
+}

@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(20, 21, 25);
+    font-family: Arial, sans-serif;
+}
+.card {
+    display: flex;
+    height: 300px;
+    width: 400px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    background-color: rgb(31, 38, 48);
+}
+.h1{
+    color: white;
+}
+.p1{
+    color: lightslategray;
+}
+.btn1{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(37, 44, 54);
+    color: rgb(136, 144, 154);
+    border: transparent;
+    border-radius: 50%;
+    margin: 15px;
+}
+.btn2{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(37, 44, 54);
+    color: rgb(136, 144, 154);
+    border: transparent;
+    border-radius: 50%;
+    margin: 15px;
+}
+.btn3{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(37, 44, 54);
+    color: rgb(136, 144, 154);
+    border: transparent;
+    border-radius: 50%;
+    margin: 15px;
+}
+.btn4{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(37, 44, 54);
+    color: rgb(136, 144, 154);
+    border: transparent;
+    border-radius: 50%;
+    margin: 15px;
+}
+.btn5{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(37, 44, 54);
+    color: rgb(136, 144, 154);
+    border: transparent;
+    border-radius: 50%;
+    margin: 15px;
+}
+.btn6{
+    margin: 15px;
+    background-color: rgb(252, 118, 19);
+    color: rgb(37, 44, 54);
+    border: transparent;
+    border-radius: 15px;
+    width: 350px;
+    height: 30px;
+}

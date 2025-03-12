@@ -1,0 +1,45 @@
+.vandam-body{
+    font-family: cursive;
+    text-decoration: dotted;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(68, 68, 150);
+    background-color: skyblue;
+}
+.brucelee-body{
+    font-family: Helvetica;
+    text-decoration: dotted;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 200;
+    color: rgb(55, 51, 58);
+    background-color: rgb(193, 198, 201);
+}
+.jackiechan-body{
+    font-family: Arial,;
+    text-decoration: underline;
+    text-transform: lowercase;
+    text-align: center;
+    font-weight: 75%;
+    color: hsl(39, 100%, 50%);
+    background-color: #4d3f2a;
+}
+.jackli-body{
+    font-family: Cambria;
+    text-decoration: dotted;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(231, 181, 15);
+    background-color: #413523;
+}
+.sylvesterstalone-body{
+    font-family: fantasy;
+    text-decoration: line-through;
+    text-transform: inherit;
+    text-align: center;
+    font-weight: 300;
+    color: hsl(147, 50%, 47%);
+    background-color: #c6c8dc;
+}

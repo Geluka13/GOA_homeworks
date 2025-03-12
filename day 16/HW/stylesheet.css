@@ -1,0 +1,48 @@
+#footballbody{
+    background-color: green;
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    border: black;
+    border-style: double;
+}
+img{
+    border: black 30px solid;
+    border-style: double;
+}
+video{
+    border: 30px solid black;
+    border-style: double;
+}
+#wonderbody{
+    background-color: aqua;
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    border: 30px;
+    border-style: double;
+}
+img{
+    border: 30px solid black;
+    border-style: double;
+}
+video{
+    border: 30px solid black;
+    border-style: double;
+}
+#Guineapigbody{
+    background-color: white;
+    font-family: cursive;
+    text-align: center;
+    font-size: 30px;
+    border: 30px solid black;
+    border-style: double;
+}
+img{
+    border: 30px solid black;
+    border-style: double;
+}
+video{
+    border: 30px solid black;
+    border-style: double;
+}

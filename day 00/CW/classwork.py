@@ -1,0 +1,1 @@
+print("saklaso ar gvqonia")

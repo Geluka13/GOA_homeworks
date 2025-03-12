@@ -1,0 +1,6 @@
+.div-3{
+    display: flex;
+    justify-content: left;
+    background-color: yellow;
+    color: greenyellow;
+}
