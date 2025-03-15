@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    gap: 200px;
+}
+.box{
+    background-color: white;
+    gap: 40px;
+    width: 100px;
+    height: 100px;
+}
+body{
+    background-color: aqua;
+}

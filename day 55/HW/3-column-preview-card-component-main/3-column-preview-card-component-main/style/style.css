@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: white;
+    flex-direction: row;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    display: flex;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.Sedans{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: hsl(31, 77%, 52%);
+    width: 250px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 100px;
+    margin-bottom: 40px;
+}
+.SUVs{
+    border: 1px solid transparent;
+    background-color: hsl(184, 100%, 22%);
+    width: 250px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 100px;
+    margin-bottom: 40px;
+}
+.Luxury{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: hsl(179, 100%, 13%);
+    width: 250px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 100px;
+    margin-bottom: 40px;
+}
+
+.btn{
+    color: hsl(31, 77%, 52%);;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.btn2{
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: hsl(184, 100%, 22%);;
+}
+.btn3{
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: hsl(179, 100%, 13%);
+}
