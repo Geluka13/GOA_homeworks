@@ -1,0 +1,46 @@
+body{
+    background-color:  hsl(226, 43%, 10%);
+    height: 100vh;
+    grid-row: 2;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+.container{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+    margin-inline: auto;
+    padding-block: 2rem;
+    width: min(95% , 70rem);
+}
+.box{
+    background-color: hsl(235, 46%, 20%);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 170px;
+}
+.mainbox-span{
+    grid-row: span 2;
+}
+.mainbox{
+    background-color: hsl(246, 80%, 60%);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 200px;
+}
+p {
+    color: hsl(235, 45%, 61%);
+}
+.h2-1{
+    max-width: 50px;
+}
+.mini-box{
+    height: 140px;
+    background-color: hsl(235, 46%, 20%);
+    border: 1px solid transparent;
+    border-radius: 10px;
+}

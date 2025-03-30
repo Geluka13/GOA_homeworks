@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #333;
+    color: white;
+    padding: 15px;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: #fff;
+}
+.hero img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.content h2 {
+    font-size: 24px;
+    margin-top: 15px;
+}
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    background: #eee;
+}
+.stat-box {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.rewards {
+    padding: 20px;
+}
+.reward {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.reward button {
+    background: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.reward.sold-out button {
+    background: gray;
+    cursor: not-allowed;
+}
