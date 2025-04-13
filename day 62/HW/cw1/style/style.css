@@ -1,0 +1,30 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 100px;
+    margin: auto;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+h1{
+    color: hsl(0, 0%, 100%);
+}
+h4{
+    color: (0, 0%, 100%, 0.6);
+    max-width: 10px;
+}
+.card{
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    margin-bottom: 100px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.text{
+    display: block;
+    max-width: 500px;
+}

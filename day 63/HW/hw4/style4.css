@@ -1,0 +1,32 @@
+body{
+    background-color: darkgray;
+}
+.card{
+    width: 400px;
+    height: 150px;
+    margin-bottom: 20px;
+    background-color: coral;
+    border-radius: 10px;
+    animation-name: bounce;
+    animation-timing-function: cubic-bezier(.47, 1.64, .41, .8);
+    animation-duration: 3000ms;
+    animation-iteration-count: 1
+}
+@keyframes bounce {
+    0% {
+        background-color: transparent;
+        transform: translateY(400px);
+    }
+    50% {
+        background-color: transparent;
+        transform: translateX(400px);
+    }
+    70% {
+        background-color: coral;
+        transform: scaleX(2);
+    }
+    100% {
+        background-color: coral;
+        transform: scaleY(1);
+    }
+}

@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #1e1e2f;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 960px;
+    width: 100%;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (min-width: 768px) {
+    .card {
+      flex-direction: row;
+    }
+  }
+  
+  .card-left, .card-right {
+    flex: 1;
+    padding: 40px;
+  }
+  
+  .card-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .card-left h2 {
+    font-size: 28px;
+    color: #111827;
+    margin-bottom: 10px;
+  }
+  
+  .card-left p {
+    color: #4b5563;
+    margin-bottom: 20px;
+  }
+  
+  .card-left ul {
+    list-style: none;
+    margin-bottom: 30px;
+  }
+  
+  .card-left li {
+    color: #4b5563;
+    margin-bottom: 10px;
+    padding-left: 24px;
+    position: relative;
+  }
+  
+  .card-left li::before {
+    content: '✔';
+    color: #ef4444;
+    position: absolute;
+    left: 0;
+  }
+  
+  form label {
+    font-size: 14px;
+    color: #374151;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    font-size: 16px;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #111827;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #1f2937;
+  }
+  
+  .card-right {
+    background: linear-gradient(135deg, #f97316, #ec4899);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card-right img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+  }

@@ -1,0 +1,29 @@
+p{
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    animation-name: textcolorchange;
+    animation-timing-function: cubic-bezier(.47, 1.64, .41, .8);
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+}
+@keyframes textcolorchange{
+    0%{
+        background-color: red;
+    }
+    20%{
+        background-color: blue;
+    }
+    40%{
+        background-color: yellow;
+    }
+    60%{
+        background-color: green;
+    }
+    80%{
+        background-color: purple;
+    }
+    100%{
+        background-color: pink;
+    }
+}
