@@ -1,0 +1,119 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .card {
+    padding: 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    background-color: white;
+  }
+  
+  .card h1, .card h3 {
+    margin: 0 0 1rem;
+  }
+  
+  .card p {
+    margin: 0.5rem 0;
+  }
+  
+  .card.beige {
+    background-color: #fef3ec;
+  }
+  
+  .card.yellow {
+    background-color: #ffd369;
+  }
+  
+  .card.purple {
+    background-color: #8854d0;
+    color: white;
+  }
+  
+  .card.light-purple {
+    background-color: #e7dcfc;
+  }
+  
+  .card.white {
+    background-color: white;
+  }
+  
+  .card.tall {
+    grid-row: span 2;
+  }
+  
+  .card.wide {
+    grid-column: span 2;
+  }
+  
+  .btn {
+    background-color: #ffcd5c;
+    border: none;
+    border-radius: 30px;
+    padding: 0.6rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .stars {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .chat {
+    background: white;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .chart {
+    margin-top: 1rem;
+  }
+  
+  .bars {
+    display: flex;
+    gap: 6px;
+    align-items: flex-end;
+    height: 80px;
+    margin: 10px 0;
+  }
+  
+  .bar {
+    width: 10px;
+    background-color: #8854d0;
+    border-radius: 4px;
+  }
+  
+  .caption {
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+  }
+  
+  .stats {
+    font-size: 0.95rem;
+  }
+  
+  .purple em {
+    font-style: italic;
+  }
+  
+  .yellow {
+    color: #ff9f1c;
+  }
+  

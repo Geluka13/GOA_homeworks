@@ -1,0 +1,8 @@
+.card{
+    width: 100px;
+    height: 100px;
+}
+.gridlayout{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

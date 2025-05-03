@@ -1,0 +1,106 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+.attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+ body {
+    font-family: "Roboto", sans-serif;
+  }
+
+@media screen and (min-width: 320px) {
+    body {
+      background: url("./images/pattern-bg-mobile.png") no-repeat;
+      background-size: 100%;
+      background-size: contain;
+      height: 100vh;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+    }
+    h1 {
+      font-size: 24px;
+      text-align: center;
+      color: white;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    input {
+      width: 100%;
+      padding: 15px 10px;
+      border-radius: 8px;
+      border-bottom-right-radius: 0px;
+      border-top-right-radius: 0px;
+      border: none;
+      outline: none;
+    }
+    button {
+      background-color: black;
+      width: 50px;
+      border: none;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      cursor: pointer;
+    }
+    button img {
+      width: 10px;
+    }
+    form {
+      display: flex;
+    }
+    .container {
+      width: 100%;
+      padding: 20px;
+      position: absolute;
+      top: 0;
+    }
+    .card {
+      background-color: white;
+      text-align: center;
+      width: 100%;
+      border-radius: 10px;
+      padding: 20px;
+      margin-top: 20px;
+      box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    }
+    .card h5 {
+      color: gray;
+      font-size: 7px;
+      letter-spacing: 1.7px;
+      text-transform: uppercase;
+    }
+    .card h2 {
+      font-size: 16px;
+      padding-block: 10px;
+      text-transform: uppercase;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    body {
+      background: url("./images/pattern-bg-desktop.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    .card {
+      max-width: 1000px;
+      margin: 0 auto;
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      text-align: start;
+    }
+    iframe{
+      height: 700px;
+    }
+}

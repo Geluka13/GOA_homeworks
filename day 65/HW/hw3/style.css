@@ -1,0 +1,17 @@
+.card{
+    position: absolute;
+    left: 43%;
+    top: 35%;
+}
+.card{
+    background-color: aqua;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
+@media screen and (max-width: 760px){
+    .card{
+        position: relative;
+        width: 100%;
+    }
+}

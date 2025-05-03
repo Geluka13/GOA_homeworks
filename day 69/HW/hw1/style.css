@@ -1,0 +1,12 @@
+.box{
+    width: 100px;
+    height: 50px;
+    background-color: bisque;
+}
+.flexbox{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 300px;
+}
