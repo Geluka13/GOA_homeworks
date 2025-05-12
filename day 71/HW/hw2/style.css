@@ -1,0 +1,27 @@
+.box{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
+.grid-layout{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+@media screen and (min-width: 1000px){
+    .grid-layout{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 999px){
+    .grid-layout{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media  screen and (max-width: 599px) {
+    .grid-layout{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,10 @@
+.flexbox{
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width: 600px) {
+    .flexbox{
+        display: flex;
+        flex-direction: column;
+    }
+}

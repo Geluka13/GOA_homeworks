@@ -1,0 +1,15 @@
+h1::before{
+    content: "";
+    background-color: black;
+    width: 120px;
+    height: 5px;
+    bottom: 0;
+    position: absolute;
+}
+h1{
+    position: relative;
+}
+h1::after{
+    content: "✅";
+    bottom: 0;
+}
